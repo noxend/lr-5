@@ -85,15 +85,7 @@ const run = async () => {
     calculateFactorialWithWorker,
     "Worker"
   );
-  const timeLocal = await benchmarkFactorial(
-    inputNumber,
-    calculatFactorial,
-    "Local"
-  );
-  const diff = timeLocal - timeWorker;
-  console.log(
-    `Difference between local and worker: ${Math.floor(diff / 1000000)}ms`
-  );
+  console.log(timeWorker);
 };
 
 run();
