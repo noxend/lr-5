@@ -1,0 +1,23 @@
+{
+  "name": "lr-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noxend/lr-5.git"
+  },
+  "author": "Sasha Marushchak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noxend/lr-5/issues"
+  },
+  "homepage": "https://github.com/noxend/lr-5#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0",
+    "ora": "^2.1.0"
+  }
+}
